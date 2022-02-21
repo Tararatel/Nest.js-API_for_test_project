@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateEmployeeDto } from './dto/create-employee.dto';
 import { UpdateEmployeeDto } from './dto/update-employee.dto';
-import { Employee } from './entities/employee.entity';
+import Employee from './entities/employee.entity';
 import fakeEmployees from '../employees/fakeEmployessBase';
 
 @Injectable()

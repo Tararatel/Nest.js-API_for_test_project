@@ -1,4 +1,5 @@
-export class Employee {
+/* eslint-disable prettier/prettier */
+export default interface Employee {
   id: number;
   employee_name: string;
   employee_salary: number;

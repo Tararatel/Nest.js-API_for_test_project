@@ -10,6 +10,7 @@ export class CreateEmployeeDto {
   @IsNumber()
   readonly employee_age: number;
 
+  @IsOptional()
   @IsNumber()
   readonly id: number;
 

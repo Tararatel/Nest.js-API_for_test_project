@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { CreateEmployeeDto } from './dto/create-employee.dto';
 import { UpdateEmployeeDto } from './dto/update-employee.dto';
-import { Employee } from './entities/employee.entity';
+import Employee from './entities/employee.entity';
 import { EmployeesService } from './employees.service';
 
 @Controller('employees')
